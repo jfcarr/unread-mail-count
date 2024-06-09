@@ -1,0 +1,16 @@
+{
+    "DisplayZeroCounts": false,
+    "OutputDirectory": "./",
+    "Email": [
+        {
+            "HostUrl": "imap.gmail.com",
+            "UserName": "me@gmail.com",
+            "Password": "my_gmail_password"
+        },
+        {
+            "HostUrl": "outlook.office365.com",
+            "UserName": "me@outlook.com",
+            "Password": "my_outlook_password"
+        }
+    ]
+}
