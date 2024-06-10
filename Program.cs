@@ -19,8 +19,6 @@ internal class Program
             bool displayZeroCounts = config.GetValue<bool>("DisplayZeroCounts");
             string? outputDirectory = config.GetValue<string>("OutputDirectory") ?? ".";
 
-            Console.WriteLine(outputDirectory);
-
             if (mailEntries != null)
             {
                 MailHandler mailHandler = new(displayZeroCounts, outputDirectory);
